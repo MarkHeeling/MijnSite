@@ -1,4 +1,4 @@
-function Header() {
+export default function Header() {
   return (
     <header className="max-w-6xl px-5 py-6 mx-auto bg-white border-b-2 md:px-0">
       <div className="flex flex-row items-center justify-between">
@@ -15,5 +15,3 @@ function Header() {
     </header>
   );
 }
-
-export default Header;
