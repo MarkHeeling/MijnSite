@@ -8,6 +8,7 @@ export default function Spotify() {
       <section className="bg-gray-600">
         <main className="flex items-center justify-center">
           {console.log(data)}
+          <p>test</p>
         </main>
       </section>
     </>
