@@ -8,7 +8,7 @@ export default function Spotify() {
     <>
       <a
         target="_blank"
-        rel="noopener noreferer"
+        rel="noreferrer"
         href={
           data?.isPlaying
             ? data.songUrl
