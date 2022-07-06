@@ -14,15 +14,14 @@ export default function Spotify() {
             ? data.songUrl
             : "https://open.spotify.com/user/1188579834?si=860b60e03a0b4dc3"
         }
-        className="relative flex items-center w-auto p-2 border rounded-sm"
+        className="flex items-center w-auto p-2 border rounded-sm "
       >
         <div className="flex items-center">
           <BsSpotify />
-
-          <p className="ml-2 text-sm font-bold ">
+          <p className="ml-2 text-xs font-bold sm:text-sm">
             {data?.isPlaying ? data.title + " -" : "Momenteel luister ik niks"}
           </p>
-          <p className="ml-1 text-sm font-dark">
+          <p className="ml-1 text-xs sm:text-sm font-dark">
             {data?.isPlaying ? data.artist : ""}
           </p>
         </div>
